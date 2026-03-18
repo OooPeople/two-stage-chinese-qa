@@ -1,9 +1,9 @@
 # Two-Stage Chinese Question Answering Pipeline
 # 雙階段中文問答系統
 
-This repository is a portfolio-ready version of an Applied Deep Learning homework project. It implements a two-stage question answering pipeline: first selecting the most relevant context paragraph, then extracting the final answer span from that paragraph.
+This repository is a cleaned-up public version of an Applied Deep Learning homework project. It implements a two-stage question answering pipeline: first selecting the most relevant context paragraph, then extracting the final answer span from that paragraph.
 
-本專案是將 Applied Deep Learning 課程作業整理成可公開展示的作品集版本。系統採用雙階段問答流程：先從候選段落中找出最相關的 context，再從該段落中抽取最終答案。
+本專案是將 Applied Deep Learning 課程作業整理成可公開閱讀的整理版本。系統採用雙階段問答流程：先從候選段落中找出最相關的 context，再從該段落中抽取最終答案。
 
 ## Overview / 專案概述
 
@@ -178,10 +178,10 @@ This design reduces the search space for answer extraction and matches the struc
 
 ## Results / 結果
 
-- The original coursework included a written report, but verified final metrics have not yet been extracted into this portfolio version.
+- The original coursework included a written report, but verified final metrics have not yet been extracted into this public version.
 - TODO: add validated evaluation metrics or leaderboard results after checking the original report and experiment records.
 
-- 原始作業有書面報告，但目前還沒有把確認過的最終指標整理進這個作品集版本。
+- 原始作業有書面報告，但目前還沒有把確認過的最終指標整理進這個公開整理版本。
 - TODO：待重新檢查原始報告與實驗紀錄後，再補上驗證過的評估指標或排名結果。
 
 ## Dataset / 資料集
@@ -214,12 +214,12 @@ This design reduces the search space for answer extraction and matches the struc
 
 ## Course Context / 課程背景
 
-This repository was adapted from a homework submission for the course `Applied Deep Learning`. The public version keeps the implemented pipeline and helper utilities, removes the course-report-oriented layout, and adds supporting documentation for public reference.
+This repository was adapted from a homework submission for the course `Applied Deep Learning`. The public version keeps the implemented pipeline and helper utilities, removes the course-report-oriented layout, and adds supporting documentation for clearer public reference.
 
-本 repo 由 `Applied Deep Learning` 課程作業整理而成。公開版本保留了核心 pipeline 與輔助工具，移除較偏作業提交導向的內容，並補上適合作品集展示的文件說明。
+本 repo 由 `Applied Deep Learning` 課程作業整理而成。公開版本保留了核心 pipeline 與輔助工具，移除較偏作業提交導向的內容，並補上更適合公開閱讀的文件說明。
 
 ## Author / 作者
 
-Student coursework adapted into a portfolio repository by the original project author.
+Student coursework adapted into a public project repository by the original project author.
 
-由原始作者將學生作業整理為作品集版本。
+由原始作者將學生作業整理為公開整理版本。
