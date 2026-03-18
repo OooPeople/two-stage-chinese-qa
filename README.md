@@ -3,7 +3,7 @@
 
 This repository is a cleaned-up public version of an Applied Deep Learning homework project. It implements a two-stage question answering pipeline: first selecting the most relevant context paragraph, then extracting the final answer span from that paragraph.
 
----
+<!-- bilingual split -->
 
 本專案是將 Applied Deep Learning 課程作業整理成可公開閱讀的整理版本。系統採用雙階段問答流程：先從候選段落中找出最相關的 context，再從該段落中抽取最終答案。
 
@@ -11,7 +11,7 @@ This repository is a cleaned-up public version of an Applied Deep Learning homew
 
 The original coursework repository focused on competition-style prediction scripts and training commands. This public version keeps the core implementation, reorganizes the project structure, and adds documentation so the pipeline is easier to review and run.
 
----
+<!-- bilingual split -->
 
 原始作業版本以競賽提交與訓練指令為主。這份公開版本保留核心實作，重新整理專案結構，並補上文件說明，讓整體流程與執行方式更容易理解。
 
@@ -22,7 +22,7 @@ The original coursework repository focused on competition-style prediction scrip
 - Helper scripts for dataset format conversion and CSV submission export
 - Clear separation between source code, runnable scripts, and authoring-only files
 
----
+<!-- bilingual split -->
 
 - 採用雙階段推論流程，結合 context selection 與 extractive QA
 - 訓練與推論腳本改寫自 Hugging Face 官方範例流程
@@ -77,7 +77,7 @@ two-stage-chinese-qa/
 - Git Bash, WSL, or another shell environment if you want to run the `.sh` scripts on Windows
 - `wget` and `unzip` are required if you want to use `scripts/download_checkpoints.sh`
 
----
+<!-- bilingual split -->
 
 - Python 3.8 以上版本
 - 可正常運作且與硬體相容的 PyTorch 環境
@@ -93,7 +93,7 @@ python -m spacy download zh_core_web_md
 
 Note: the exact coursework environment was not preserved, so `requirements.txt` is a best-effort dependency list rather than a fully pinned reproduction environment.
 
----
+<!-- bilingual split -->
 
 註：原始作業的完整環境版本資訊沒有完整保留下來，因此 `requirements.txt` 目前是最小依賴清單，而不是完全可重現的鎖版本環境。
 
@@ -103,7 +103,7 @@ Note: the exact coursework environment was not preserved, so `requirements.txt` 
 
 The `sample_data/` directory contains tiny format examples derived from the coursework data. These files are for schema illustration only and are not meant to represent the full dataset.
 
----
+<!-- bilingual split -->
 
 `sample_data/` 內提供少量從原始課程資料切出的示範檔案，主要用途是說明資料格式，並不代表完整資料集規模。
 
@@ -129,7 +129,7 @@ roberta-wwm-ext/
 bash scripts/run_inference_pipeline.sh /path/to/context.json /path/to/test.json /path/to/prediction.csv
 ```
 
----
+<!-- bilingual split -->
 
 1. 先下載已微調完成的 checkpoint：
 
@@ -153,7 +153,7 @@ bash scripts/run_inference_pipeline.sh /path/to/context.json /path/to/test.json 
 
 Note: this repository does not include the checkpoint files directly. Full inference depends on the external download link remaining available. If the link becomes unavailable, place compatible checkpoint files manually under `./roberta-wwm-ext/multiple-choice/` and `./roberta-wwm-ext/qa/`.
 
----
+<!-- bilingual split -->
 
 註：本 repo 不直接附上 checkpoint 檔案。若要完整執行推論流程，仍需依賴外部下載連結；若連結失效，請手動將相容的 checkpoint 放到 `./roberta-wwm-ext/multiple-choice/` 與 `./roberta-wwm-ext/qa/`。
 
@@ -163,7 +163,7 @@ Note: this repository does not include the checkpoint files directly. Full infer
 - `scripts/download_checkpoints.sh`: downloads the fine-tuned `roberta-wwm-ext` checkpoints required for full inference
 - `scripts/export_predictions_csv.py`: converts predicted JSON answers into submission CSV format
 
----
+<!-- bilingual split -->
 
 - `scripts/convert_dataset_to_dict.py`：將原始 list 形式的 JSON 包裝成訓練腳本需要的 dict 結構
 - `scripts/download_checkpoints.sh`：下載完整推論流程所需的 `roberta-wwm-ext` 微調模型
@@ -187,7 +187,7 @@ The pipeline is organized as two sequential stages:
 
 This design reduces the search space for answer extraction and matches the structure of the course dataset used in the original assignment.
 
----
+<!-- bilingual split -->
 
 整體流程分為兩個階段：
 
@@ -201,7 +201,7 @@ This design reduces the search space for answer extraction and matches the struc
 - The original coursework included a written report, but verified final metrics have not yet been extracted into this public version.
 - TODO: add validated evaluation metrics or leaderboard results after checking the original report and experiment records.
 
----
+<!-- bilingual split -->
 
 - 原始作業有書面報告，但目前還沒有把確認過的最終指標整理進這個公開整理版本。
 - TODO：待重新檢查原始報告與實驗紀錄後，再補上驗證過的評估指標或排名結果。
@@ -215,7 +215,7 @@ This design reduces the search space for answer extraction and matches the struc
 - The fine-tuned model weights are also not committed to this repository; they are fetched separately by `scripts/download_checkpoints.sh`.
 - The helper script `convert_dataset_to_dict.py` indicates that some raw data files were originally stored as a JSON list and then wrapped into a `{"data": ...}` structure for training and inference.
 
----
+<!-- bilingual split -->
 
 - 本專案使用課程提供的 QA 資料格式，包含題目資料與獨立的 context 檔案。
 - 完整資料集並未放入這個公開 repo。
@@ -231,7 +231,7 @@ This design reduces the search space for answer extraction and matches the struc
 - Only tiny format samples are bundled; no demo predictions or visual outputs are included yet.
 - Several core training files are adapted from official Hugging Face example scripts rather than built from scratch.
 
----
+<!-- bilingual split -->
 
 - 原始作業環境的精確套件版本沒有完整保存。
 - 微調後的 checkpoint 沒有納入版本控制，且仍依賴外部下載連結。
@@ -242,7 +242,7 @@ This design reduces the search space for answer extraction and matches the struc
 
 This repository was adapted from a homework submission for the course `Applied Deep Learning`. The public version keeps the implemented pipeline and helper utilities, removes the course-report-oriented layout, and adds supporting documentation for clearer public reference.
 
----
+<!-- bilingual split -->
 
 本 repo 由 `Applied Deep Learning` 課程作業整理而成。公開版本保留了核心 pipeline 與輔助工具，移除較偏作業提交導向的內容，並補上更適合公開閱讀的文件說明。
 
@@ -250,6 +250,6 @@ This repository was adapted from a homework submission for the course `Applied D
 
 Student coursework adapted into a public project repository by the original project author.
 
----
+<!-- bilingual split -->
 
 由原始作者將學生作業整理為公開整理版本。
