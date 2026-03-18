@@ -25,7 +25,7 @@ The original coursework repository focused on competition-style prediction scrip
 ## Repository Structure
 
 ```text
-r10921084-portfolio/
+two-stage-chinese-qa/
 |-- src/
 |   |-- context_selection/
 |   |   `-- run_multiple_choice.py
