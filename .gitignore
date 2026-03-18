@@ -1,0 +1,47 @@
+# Local authoring aids
+.cursor/
+.portfolio/
+AGENTS.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Training artifacts and generated outputs
+cache/
+predict/
+temp/
+outputs/
+logs/
+*.zip
+checkpoint-*/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+bert/
+roberta-wwm-ext/
+
+# Secrets and local config
+.env
+*.key
+*.pem
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

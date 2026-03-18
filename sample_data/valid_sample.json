@@ -1,0 +1,152 @@
+﻿[
+    {
+        "id":  "9f0860355c55e113d615cc88b3fa9420",
+        "question":  "伊利諾大學是哪一個國家的大學?",
+        "paragraphs":  [
+                           39,
+                           40,
+                           41,
+                           42
+                       ],
+        "relevant":  40,
+        "answer":  {
+                       "text":  "美國",
+                       "start":  15
+                   }
+    },
+    {
+        "id":  "20f49d82038169b184336c4c1f96f64d",
+        "question":  "中華人民共和國成立後，土地改革運動由誰所主持帶領?",
+        "paragraphs":  [
+                           43,
+                           44,
+                           45,
+                           46
+                       ],
+        "relevant":  44,
+        "answer":  {
+                       "text":  "劉少奇",
+                       "start":  433
+                   }
+    },
+    {
+        "id":  "44fbf143b338305c5c553fc733b1fe54",
+        "question":  "哈康七世海、拉扎耶夫海、戴維斯海、莫森海均有一部份位於哪一洋的範圍內？",
+        "paragraphs":  [
+                           47,
+                           9,
+                           48,
+                           49
+                       ],
+        "relevant":  49,
+        "answer":  {
+                       "text":  "南冰洋",
+                       "start":  0
+                   }
+    },
+    {
+        "id":  "9cacc447cfc4b2dbcf3509ad9b07210f",
+        "question":  "天主教廷的什麼推廣活動與當時貴族階層的作戰和冒險欲望強烈相衝突？",
+        "paragraphs":  [
+                           50,
+                           21,
+                           51,
+                           52
+                       ],
+        "relevant":  51,
+        "answer":  {
+                       "text":  "上帝和平、上帝休戰",
+                       "start":  285
+                   }
+    },
+    {
+        "id":  "2d3afb7bd17af9bb2e1b8ce890ee55d0",
+        "question":  "成吉思汗的哪一個兒子成為大汗繼承人?",
+        "paragraphs":  [
+                           53,
+                           54,
+                           55,
+                           56
+                       ],
+        "relevant":  56,
+        "answer":  {
+                       "text":  "窩闊台",
+                       "start":  152
+                   }
+    },
+    {
+        "id":  "7647d8fc7c2670ed7849b3f23bb6a810",
+        "question":  "1609年克卜勒出版哪一著作，該書認為太陽自轉，預測了太陽黑子的周期，是一部極為成功的天文物理著作?",
+        "paragraphs":  [
+                           57,
+                           58,
+                           59,
+                           60
+                       ],
+        "relevant":  59,
+        "answer":  {
+                       "text":  "《新天文學》",
+                       "start":  162
+                   }
+    },
+    {
+        "id":  "a62dfeb4578129a61efb718b595d4635",
+        "question":  "「純公共財」指的是什麼?",
+        "paragraphs":  [
+                           8,
+                           61,
+                           9,
+                           62
+                       ],
+        "relevant":  62,
+        "answer":  {
+                       "text":  "每一位消費者的邊際成本趨近於零",
+                       "start":  156
+                   }
+    },
+    {
+        "id":  "b4e98b0ae41fe4fbe21feabd399fa82d",
+        "question":  "函數的定義域是函數中什麼的集合？",
+        "paragraphs":  [
+                           1,
+                           63,
+                           64,
+                           65
+                       ],
+        "relevant":  63,
+        "answer":  {
+                       "text":  "輸入值",
+                       "start":  179
+                   }
+    },
+    {
+        "id":  "cfce9ba7050b2e2bbdc12fe875ec6af0",
+        "question":  "南海縣在哪一年之後隸屬於佛山市?",
+        "paragraphs":  [
+                           66,
+                           67,
+                           68,
+                           69
+                       ],
+        "relevant":  67,
+        "answer":  {
+                       "text":  "1983年",
+                       "start":  623
+                   }
+    },
+    {
+        "id":  "42ecc7addfc58b308f4fde61b2ff4b7d",
+        "question":  "全球資訊網是誰發明的?",
+        "paragraphs":  [
+                           70,
+                           71,
+                           72,
+                           73
+                       ],
+        "relevant":  70,
+        "answer":  {
+                       "text":  "英國科學家提姆·柏內茲-李",
+                       "start":  45
+                   }
+    }
+]

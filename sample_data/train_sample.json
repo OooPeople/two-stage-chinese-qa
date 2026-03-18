@@ -1,0 +1,152 @@
+﻿[
+    {
+        "id":  "593f14f960d971e294af884f0194b3a7",
+        "question":  "舍本和誰的數據能推算出連星的恆星的質量？",
+        "paragraphs":  [
+                           0,
+                           1,
+                           2,
+                           3
+                       ],
+        "relevant":  3,
+        "answer":  {
+                       "text":  "斯特魯維",
+                       "start":  108
+                   }
+    },
+    {
+        "id":  "acd5d763ec4c250f9a11eac1412d6814",
+        "question":  "在關西鎮以什麼方言為主？",
+        "paragraphs":  [
+                           4,
+                           5,
+                           6,
+                           7
+                       ],
+        "relevant":  5,
+        "answer":  {
+                       "text":  "四縣腔客家話",
+                       "start":  306
+                   }
+    },
+    {
+        "id":  "5670000714a658c5e52658e22e6985f7",
+        "question":  "「有錫兵，天下爭。無錫寧，天下清。」指的是何人攻破蘭陵後，率軍駐無錫錫山時的上書?",
+        "paragraphs":  [
+                           8,
+                           9,
+                           10,
+                           11
+                       ],
+        "relevant":  11,
+        "answer":  {
+                       "text":  "王翦",
+                       "start":  46
+                   }
+    },
+    {
+        "id":  "f71493751ccfce42aae7a99ed3f20dbb",
+        "question":  "《方法論》的作者是誰?",
+        "paragraphs":  [
+                           12,
+                           13,
+                           14,
+                           15
+                       ],
+        "relevant":  13,
+        "answer":  {
+                       "text":  "阿基米德",
+                       "start":  63
+                   }
+    },
+    {
+        "id":  "56d547357d11a8938197072d82aa126c",
+        "question":  "環繞速度又為哪種速度的別稱?",
+        "paragraphs":  [
+                           16,
+                           17,
+                           18,
+                           19
+                       ],
+        "relevant":  17,
+        "answer":  {
+                       "text":  "第一宇宙速度",
+                       "start":  69
+                   }
+    },
+    {
+        "id":  "df509863db14955352fd7c47e0dab571",
+        "question":  "橫濱市內大部分地區的方言是屬於哪一種方言?",
+        "paragraphs":  [
+                           20,
+                           21,
+                           22,
+                           23
+                       ],
+        "relevant":  20,
+        "answer":  {
+                       "text":  "橫濱川崎方言",
+                       "start":  194
+                   }
+    },
+    {
+        "id":  "9b4518c395d7137ba2bd53b435c7c20e",
+        "question":  "托勒密是甚麼學家?",
+        "paragraphs":  [
+                           24,
+                           25,
+                           26,
+                           27
+                       ],
+        "relevant":  26,
+        "answer":  {
+                       "text":  "天文學家",
+                       "start":  182
+                   }
+    },
+    {
+        "id":  "367072175806b2971c978e12b297e7b7",
+        "question":  "乘客等了多久巴士",
+        "paragraphs":  [
+                           28,
+                           29,
+                           30,
+                           31
+                       ],
+        "relevant":  31,
+        "answer":  {
+                       "text":  "四十五分鐘",
+                       "start":  183
+                   }
+    },
+    {
+        "id":  "afec06dd09314129d6fa43ba6cbdfe67",
+        "question":  "周太子誦於何年即位?",
+        "paragraphs":  [
+                           32,
+                           33,
+                           34,
+                           35
+                       ],
+        "relevant":  34,
+        "answer":  {
+                       "text":  "西元前1042年",
+                       "start":  0
+                   }
+    },
+    {
+        "id":  "af82104e2c3121d4bc2f8209dd10772c",
+        "question":  "夏季的季風為什麼?",
+        "paragraphs":  [
+                           21,
+                           36,
+                           37,
+                           38
+                       ],
+        "relevant":  37,
+        "answer":  {
+                       "text":  "西南季風",
+                       "start":  230
+                   }
+    }
+]
