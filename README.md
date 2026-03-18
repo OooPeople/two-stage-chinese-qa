@@ -109,13 +109,13 @@ The `sample_data/` directory contains tiny format examples derived from the cour
 
 ### Run the Inference Pipeline / 執行推論流程
 
-1. Download the fine-tuned checkpoints:
+1. Download the fine-tuned checkpoints / 先下載已微調完成的 checkpoint：
 
 ```bash
 bash scripts/download_checkpoints.sh
 ```
 
-2. The downloaded `roberta-wwm-ext.zip` archive should extract into:
+2. The downloaded `roberta-wwm-ext.zip` archive should extract into / 解壓後應產生以下結構：
 
 ```text
 roberta-wwm-ext/
@@ -123,29 +123,7 @@ roberta-wwm-ext/
 `-- qa/
 ```
 
-3. Run prediction:
-
-```bash
-bash scripts/run_inference_pipeline.sh /path/to/context.json /path/to/test.json /path/to/prediction.csv
-```
-
-<!-- bilingual split -->
-
-1. 先下載已微調完成的 checkpoint：
-
-```bash
-bash scripts/download_checkpoints.sh
-```
-
-2. 解壓後應產生以下結構：
-
-```text
-roberta-wwm-ext/
-|-- multiple-choice/
-`-- qa/
-```
-
-3. 再執行推論：
+3. Run prediction / 再執行推論：
 
 ```bash
 bash scripts/run_inference_pipeline.sh /path/to/context.json /path/to/test.json /path/to/prediction.csv
