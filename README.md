@@ -7,6 +7,26 @@ This repository is a cleaned-up public version of an Applied Deep Learning homew
 
 本專案是將 Applied Deep Learning 課程作業整理成可公開閱讀的整理版本。系統採用雙階段問答流程：先從候選段落中找出最相關的 context，再從該段落中抽取最終答案。
 
+## Pipeline Example / 推論示意
+
+Question from `sample_data/train_sample.json`:
+`在關西鎮以什麼方言為主？`
+
+1. Context selection: the model receives 4 candidate paragraphs with indices `[4, 5, 6, 7]` and selects paragraph `5`.
+2. Answer extraction: from the selected paragraph, the model extracts the answer span `四縣腔客家話` from the sentence `...關西鎮及峨眉鄉部分使用四縣腔客家話為主。`
+
+This small example shows the intended behavior of the pipeline: first narrow the search space to the correct context, then predict the final answer span.
+
+<!-- bilingual split -->
+
+題目來自 `sample_data/train_sample.json`：
+`在關西鎮以什麼方言為主？`
+
+1. Context selection：模型會先從編號為 `[4, 5, 6, 7]` 的 4 個候選段落中，選出正確的段落 `5`。
+2. Answer extraction：接著在選中的段落內，從句子 `...關西鎮及峨眉鄉部分使用四縣腔客家話為主。` 中抽取答案 span `四縣腔客家話`。
+
+這個小例子可以直接說明本專案的核心功能：先縮小到正確的 context，再抽取最終答案。
+
 ## Overview / 專案概述
 
 The original coursework repository focused on competition-style prediction scripts and training commands. This public version keeps the core implementation, reorganizes the project structure, and adds documentation so the pipeline is easier to review and run.
