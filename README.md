@@ -196,13 +196,20 @@ This design reduces the search space for answer extraction and matches the struc
 
 ## Results / 結果
 
-- The original coursework included a written report, but verified final metrics have not yet been extracted into this public version.
-- TODO: add validated evaluation metrics or leaderboard results after checking the original report and experiment records.
+Observed coursework results:
+
+- `bert-base-chinese`: public/private accuracy `0.74321 / 0.74435`
+- `hfl/chinese-roberta-wwm-ext`: public/private accuracy `0.78481 / 0.80307`
+- Pretrained vs. not pretrained (`bert-base-chinese`, same setup): `0.74321 / 0.74435` vs. `0.25331 / 0.26123`
+- Training setup for these runs: `AdamW`, learning rate `3e-5`, gradient accumulation steps `2`, batch size `1` for context selection and `6` for QA
 
 <!-- bilingual split -->
 
-- 原始作業有書面報告，但目前還沒有把確認過的最終指標整理進這個公開整理版本。
-- TODO：待重新檢查原始報告與實驗紀錄後，再補上驗證過的評估指標或排名結果。
+- 作業實驗結果如下：
+- `bert-base-chinese` 的 public/private accuracy 為 `0.74321 / 0.74435`
+- `hfl/chinese-roberta-wwm-ext` 的 public/private accuracy 為 `0.78481 / 0.80307`
+- 在相同設定下比較 pretrained 與 not pretrained 的 `bert-base-chinese`，分別為 `0.74321 / 0.74435` 與 `0.25331 / 0.26123`
+- 這些實驗的訓練設定為 `AdamW`、learning rate `3e-5`、gradient accumulation steps `2`，以及 context selection batch size `1`、QA batch size `6`
 
 ## Dataset / 資料集
 

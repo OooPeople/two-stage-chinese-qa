@@ -1,7 +1,7 @@
 # Local authoring aids
 .cursor/
-.portfolio/
 AGENTS.md
+GIT_COMMIT_RULES.md
 
 # Python
 __pycache__/
